@@ -9,6 +9,9 @@ $medium-font-size: $base-font-size * 0.938;
 $small-font-size: $base-font-size * 0.875;
 $base-line-height: 1.85;
 
+//Colors
+$background-color: #D8C2B5;
+
 // Author variables
 $author-font-size: 16px;
 
@@ -53,6 +56,8 @@ $on-mobile: 768px;
 $on-tablet: 769px;
 $on-desktop: 1024px;
 $on-widescreen: 1152px;
+
+$background-pathern: url("../../assets/img/background.gif");
 
 // Social Media Image Routes
 $dark-twitch-icon: url("../../assets/icons/social-media/white/twitch-icon-white.webp");

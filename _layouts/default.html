@@ -2,7 +2,7 @@
 layout: compress
 ---
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 {% include header.html %}
 
 <body data-theme="{{ site.mode }}" class="notransition">
@@ -30,9 +30,7 @@ layout: compress
     {% include maintainment_page.html %}
   {% else %}
     {% include navbar.html %}
-    {% include banners/long_banner.html banner_image="/assets/banner_images/web-portada.webp" alt_image="Portada" %}
     <div class="wrapper">
-      {% include author.html %}
       <main aria-label="Content">
         {{ content }}
       </main>

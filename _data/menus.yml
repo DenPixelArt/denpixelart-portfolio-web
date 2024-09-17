@@ -1,18 +1,30 @@
-- title: home
+- title: Home
   url: /
   external: false
+  enabled: true
+
+- title: Portfolio
+  image: /assets/img/navbar/portfolio.png
+  url: /portfolio/
+  external: false
+  enabled: true
 
 - title: devlogs
   url: /devlogs/
   external: false
+  enabled: false
 
-- title: about
+- title: About me
+  image: /assets/img/navbar/about.png
   url: /about/
   external: false # set true if you using external link, see below
+  enabled: true
 
-- title: contact
+- title: Contact
+  image: /assets/img/navbar/contact.png   
   url: /contact/
   external: false
+  enabled: true
 
 # Example:
 # - title: github

@@ -14,13 +14,15 @@
         {%- assign menus = site.data.menus -%}
         {%- if menus %}
           {%- for menu in menus -%}
-            {%- if url == menu.url -%}
-              <a class="menu-link active" href="{{ menu.url }}">{{ menu.title }}</a>
-            {%- else -%}
-              {%- if menu.external -%}
-                <a class="menu-link" href="{{ menu.url }}" target="_blank" rel="noopener">{{ menu.title }}</a>
+            {%- if menu.enabled == true -%}
+              {%- if url == menu.url -%}
+                <a class="menu-link active" href="{{ menu.url }}">{{ menu.title }}</a>
               {%- else -%}
-                <a class="menu-link" href="{{ menu.url }}">{{ menu.title }}</a>
+                {%- if menu.external -%}
+                  <a class="menu-link" href="{{ menu.url }}" target="_blank" rel="noopener">{{ menu.title }}</a>
+                {%- else -%}
+                  <a class="menu-link" href="{{ menu.url }}">{{ menu.title }}</a>
+                {%- endif -%}
               {%- endif -%}
             {%- endif -%}
           {%- endfor -%}
