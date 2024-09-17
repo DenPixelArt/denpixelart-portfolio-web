@@ -286,7 +286,8 @@ blockquote {
   padding-right: $spacing-full;
   padding-left: $spacing-full;
   background-color: $background-color;
-  
+  border: 1rem solid $border-background-color;
+
   @extend %clearfix;
 
   @include media-query($on-mobile) {
@@ -294,6 +295,10 @@ blockquote {
     max-width: calc(#{$narrow-size} - (#{$spacing-full}));
     padding-right: $spacing-full - 10;
     padding-left: $spacing-full - 10;
+
+    margin: 1rem;
+    margin-top: 2rem;
+
 
     &.blurry {
       animation: 0.2s ease-in forwards blur;

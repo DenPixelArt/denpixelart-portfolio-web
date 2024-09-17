@@ -11,6 +11,7 @@ $base-line-height: 1.85;
 
 //Colors
 $background-color: #D8C2B5;
+$border-background-color: #EADFDB;
 
 // Author variables
 $author-font-size: 16px;
@@ -44,8 +45,10 @@ $dark-smoke: #4a4d56;
 $dark-gray: #767f87;
 
 // Width of the content area
+$md-wide-size: 890px;
+$md-narrow-size: 720px;
 $wide-size: 890px;
-$narrow-size: 720px;
+$narrow-size: 890px;
 
 // Padding unit
 $spacing-full: 30px;
