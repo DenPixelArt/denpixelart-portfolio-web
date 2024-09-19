@@ -1,5 +1,7 @@
 - title: Environment
+  top_description: The enviroment is the part of my portfolio where I have learned the most. <br/><br/> I can adapt the style for every kind of resolution and type of ilustration (banner, background, avatar...)
   image: /assets/img/portfolio/title-images/environment.png
+  bottom_description:
   images:
     - section:
       - image: /assets/img/portfolio/environment/env-image-1.png
@@ -10,8 +12,35 @@
       - image: /assets/img/portfolio/environment/env-image-5.png
 
 - title: UI/UX
-  image: 
+  top_description:
+  image: /assets/img/portfolio/title-images/ui-ux.png
+  bottom_description:
   images:
     - section:
       - image: /assets/img/portfolio/ux-ui/ux-image-1.png
       - image: /assets/img/portfolio/ux-ui/ux-image-2.png
+
+- title: Mock Up
+  top_description:
+  image: /assets/img/portfolio/title-images/mockup.png
+  bottom_description: These are some examples of how would be a game made by me if I draw every part of the game.
+  images:
+    - section:
+      - image: /assets/img/portfolio/mock-up/mu-image-1.png
+      - image: /assets/img/portfolio/mock-up/mu-image-2.png
+
+- title: Character Design
+  top_description:
+  image: /assets/img/portfolio/title-images/char-design.png
+  bottom_description:
+  images:
+    - section:
+      - image: /assets/img/portfolio/char-design/char-image-1.png
+      - image: /assets/img/portfolio/char-design/char-image-2.png
+    - section:
+      - image: /assets/img/portfolio/char-design/char-image-3.png
+      - image: /assets/img/portfolio/char-design/char-image-4.png
+      - image: /assets/img/portfolio/char-design/char-image-5.png
+    - section:
+      - image: /assets/img/portfolio/char-design/char-image-6.png
+      - image: /assets/img/portfolio/char-design/char-image-7.png
