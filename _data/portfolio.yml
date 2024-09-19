@@ -4,12 +4,13 @@
   bottom_description:
   images:
     - section:
-      - image: /assets/img/portfolio/environment/env-image-1.png
-      - image: /assets/img/portfolio/environment/env-image-2.png
-      - image: /assets/img/portfolio/environment/env-image-3.png
+      - image: /assets/img/portfolio/environment/ruins-and-fire.png
     - section:
-      - image: /assets/img/portfolio/environment/env-image-4.png
-      - image: /assets/img/portfolio/environment/env-image-5.png
+      - image: /assets/img/portfolio/environment/blasph-map.png
+      - image: /assets/img/portfolio/environment/night-temple.png
+    - section:
+      - image: /assets/img/portfolio/environment/ffta-tabern.png
+      - image: /assets/img/portfolio/environment/isometric-class.png
 
 - title: UI/UX
   top_description:
@@ -17,8 +18,12 @@
   bottom_description:
   images:
     - section:
-      - image: /assets/img/portfolio/ux-ui/ux-image-1.png
-      - image: /assets/img/portfolio/ux-ui/ux-image-2.png
+      - image: /assets/img/portfolio/ux-ui/book-ui.png
+    - section:
+      - image: /assets/img/portfolio/ux-ui/monsters-act-menu.png
+      - image: /assets/img/portfolio/ux-ui/rpg-attack-ui.png
+    - section:
+      - image: /assets/img/portfolio/ux-ui/select-char-panel.png
 
 - title: Mock Up
   top_description:
@@ -26,8 +31,8 @@
   bottom_description: These are some examples of how would be a game made by me if I draw every part of the game.
   images:
     - section:
-      - image: /assets/img/portfolio/mock-up/mu-image-1.png
-      - image: /assets/img/portfolio/mock-up/mu-image-2.png
+      - image: /assets/img/portfolio/mock-up/blasphemous-cute.png
+      - image: /assets/img/portfolio/mock-up/sad-old-man.png
 
 - title: Character Design
   top_description:
@@ -35,12 +40,15 @@
   bottom_description:
   images:
     - section:
-      - image: /assets/img/portfolio/char-design/char-image-1.png
-      - image: /assets/img/portfolio/char-design/char-image-2.png
+      - image: /assets/img/portfolio/char-design/green-lord.png
+      - image: /assets/img/portfolio/char-design/megaman-char.png
+      - image: /assets/img/portfolio/char-design/blue-lord.png
     - section:
-      - image: /assets/img/portfolio/char-design/char-image-3.png
-      - image: /assets/img/portfolio/char-design/char-image-4.png
-      - image: /assets/img/portfolio/char-design/char-image-5.png
+      - image: /assets/img/portfolio/char-design/den-kill-animation.png
     - section:
-      - image: /assets/img/portfolio/char-design/char-image-6.png
-      - image: /assets/img/portfolio/char-design/char-image-7.png
+      - image: /assets/img/portfolio/char-design/ffta-red-hair.png
+      - image: /assets/img/portfolio/char-design/ffta-sara.png
+      - image: /assets/img/portfolio/char-design/ffta-semi-red-hair.png
+    - section:
+      - image: /assets/img/portfolio/char-design/icon-jal.png
+      - image: /assets/img/portfolio/char-design/icon-jpc.png

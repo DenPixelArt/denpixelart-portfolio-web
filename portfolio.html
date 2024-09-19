@@ -9,23 +9,31 @@ comments: false
 <div class="portfolio-container">
 	{%- assign portfolio = site.data.portfolio -%}
 	{%- for item in portfolio -%}
-		{%- if item.image -%}
-			<div class="portfolio-title-img">
-				<img src="{{ item.image }}" alt="{{ item.title }}">
-			</div>
-		{%- else -%}
-			<h2 class="portfolio-title">{{ item.title }}</h2>	
-		{%- endif -%}	
-		<div class="portfolio-images">
-			{%- for section in item.images -%}
-				<div class="portfolio-section">
-					{%- for image in section.section -%}
-						<a class="image" href="{{ image.image }}" data-pswp-width="" data-pswp-height="">
-							<img src="{{ image.image }}" alt="{{ image.title }}" loading="lazy">
-						</a>
-					{%- endfor -%}
+		<div class="portfolio-section">
+			{%- if item.image -%}
+				<div class="portfolio-title-img">
+					<img src="{{ item.image }}" alt="{{ item.title }}">
 				</div>
-			{%- endfor -%}
+			{%- else -%}
+				<h2 class="portfolio-title">{{ item.title }}</h2>	
+			{%- endif -%}
+			{%- if item.top_description -%}
+				<div class="top-description">{{ item.top_description }}</div>
+			{%- endif -%}
+			<div class="portfolio-images">
+				{%- for section in item.images -%}
+					<div class="portfolio-mini-section">
+						{%- for image in section.section -%}
+							<a class="image" href="{{ image.image }}" data-pswp-width="" data-pswp-height="">
+								<img src="{{ image.image }}" alt="{{ image.title }}" loading="lazy">
+							</a>
+						{%- endfor -%}
+					</div>
+				{%- endfor -%}
+			</div>
+			{%- if item.bottom_description -%}
+				<div class="bottom-description">{{ item.bottom_description }}</div>
+			{%- endif -%}
 		</div>
 	{%- endfor -%}
 </div>

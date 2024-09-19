@@ -10,8 +10,11 @@ $small-font-size: $base-font-size * 0.875;
 $base-line-height: 1.85;
 
 //Colors
-$background-color: #D8C2B5;
-$border-background-color: #EADFDB;
+$primary-color: #6bc96c;
+$secondary-color: #a6555f;
+$tertiary-color: #873555;
+$quaternary-color: #D8C2B5;
+$quinary-color: #EADFDB;
 
 // Author variables
 $author-font-size: 16px;
@@ -21,6 +24,10 @@ $author-font-size: 16px;
 $normal-weight: 400;
 $bold-weight: 700;
 // $black-weight: 900; // uncomment if necessary
+
+// Background Colors
+$background-color: $quaternary-color;
+$border-background-color: $quinary-color;
 
 //Light Colors
 $text-base-color: #434648;
