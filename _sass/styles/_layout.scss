@@ -485,13 +485,14 @@
 
         &:focus {
           border: none;
-        }
+        } 
 
         &:active {
           border: none;
         }
 
         img {
+          aspect-ratio: 3/2;
           object-fit: cover;
           object-position: center;
           max-height: 228px;
