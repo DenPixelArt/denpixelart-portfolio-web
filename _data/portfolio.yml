@@ -6,7 +6,6 @@
     - section:
       - image: /assets/img/portfolio/environment/ruins-and-fire.png
     - section:
-      - image: /assets/img/portfolio/environment/blasph-map.png
       - image: /assets/img/portfolio/environment/night-temple.png
     - section:
       - image: /assets/img/portfolio/environment/ffta-tabern.png
@@ -18,12 +17,12 @@
   bottom_description:
   images:
     - section:
-      - image: /assets/img/portfolio/ux-ui/book-ui.png
+      - image: /assets/img/portfolio/ux-ui/book-ui.gif
     - section:
       - image: /assets/img/portfolio/ux-ui/monsters-act-menu.png
       - image: /assets/img/portfolio/ux-ui/rpg-attack-ui.png
     - section:
-      - image: /assets/img/portfolio/ux-ui/select-char-panel.png
+      - image: /assets/img/portfolio/ux-ui/select-char-panel.gif
 
 - title: Mock Up
   top_description:
@@ -32,6 +31,11 @@
   images:
     - section:
       - image: /assets/img/portfolio/mock-up/blasphemous-cute.png
+      - image: /assets/img/portfolio/mock-up/mock-up-blasphemous.gif
+    - section:
+      - image: /assets/img/portfolio/mock-up/souvenir.gif
+      - image: /assets/img/portfolio/mock-up/transformation.gif
+    - section:
       - image: /assets/img/portfolio/mock-up/sad-old-man.png
 
 - title: Character Design
@@ -44,7 +48,10 @@
       - image: /assets/img/portfolio/char-design/megaman-char.png
       - image: /assets/img/portfolio/char-design/blue-lord.png
     - section:
-      - image: /assets/img/portfolio/char-design/den-kill-animation.png
+      - image: /assets/img/portfolio/char-design/den-kill-animation.gif
+    - section:
+      - image: /assets/img/portfolio/char-design/richard.png
+      - image: /assets/img/portfolio/char-design/sara.png
     - section:
       - image: /assets/img/portfolio/char-design/ffta-red-hair.png
       - image: /assets/img/portfolio/char-design/ffta-sara.png
