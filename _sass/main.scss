@@ -1,8 +1,10 @@
 // Fonts preferences
 $sans-family: Roboto, sans-serif;
 $mono-family: Consolas, monospace;
-$primary-font: "jetbrains_mono";
-$whacky-family: "whacky_joe";
+$font-primary: "jetbrains_mono";
+$font-secondary: "whacky_joe";
+$font-tertiary: "tomorrow_night";
+$font-quaternary: "plump_prose_round";
 $test-family: "retro_future";
 $base-font-size: 14px;
 $medium-font-size: $base-font-size * 0.938;
@@ -70,19 +72,13 @@ $on-widescreen: 1152px;
 $background-pathern: url("../../assets/img/background.gif");
 
 // Social Media Image Routes
-$dark-twitch-icon: url("../../assets/icons/social-media/white/twitch-icon-white.webp");
-$dark-twitter-icon: url("../../assets/icons/social-media/white/twitter-icon-white.webp");
-$dark-discord-icon: url("../../assets/icons/social-media/white/discord-icon-white.webp");
-$dark-youtube-icon: url("../../assets/icons/social-media/white/youtube-icon-white.webp");
-$dark-instagram-icon: url("../../assets/icons/social-media/white/insta-icon-white.webp");
-$dark-itch-icon: url("../../assets/icons/social-media/white/itch-icon-white.webp");
 
-$twitch-icon: url("../../assets/icons/social-media/dark/twitch-icon-dark.webp");
-$twitter-icon: url("../../assets/icons/social-media/dark/twitter-icon-dark.webp");
-$discord-icon: url("../../assets/icons/social-media/dark/discord-icon-dark.webp");
-$youtube-icon: url("../../assets/icons/social-media/dark/youtube-icon-dark.webp");
-$instagram-icon: url("../../assets/icons/social-media/dark/insta-icon-dark.webp");
-$itch-icon: url("../../assets/icons/social-media/dark/itch-icon-dark.webp");
+$twitch-icon: url("../../assets/icons/social-media/white/twitch-icon-white.png");
+$twitter-icon: url("../../assets/icons/social-media/white/twitter-icon-white.png");
+$discord-icon: url("../../assets/icons/social-media/white/discord-icon-white.png");
+$youtube-icon: url("../../assets/icons/social-media/white/youtube-icon-white.png");
+$instagram-icon: url("../../assets/icons/social-media/white/insta-icon-white.png");
+$itch-icon: url("../../assets/icons/social-media/white/itch-icon-white.png");
 
 @mixin media-query($device) {
   @media screen and (max-width: $device) {

@@ -29,6 +29,9 @@ permalink: /:title/
 google_analytics: # leave it blank if not wish
 fb_appid:
 
+# Contact form Settings
+formkeep_code: null
+
 # Collection setting
 collections:
   posts:

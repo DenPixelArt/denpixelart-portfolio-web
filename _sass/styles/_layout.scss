@@ -85,6 +85,7 @@
     padding: 5px 8px;
     opacity: 0.7;
     letter-spacing: 0.3px;
+    font-family: $font-quaternary;
 
     &:hover {
       opacity: 1;
@@ -92,6 +93,11 @@
 
     &:not(:last-child) {
       margin-right: 5px;
+    }
+
+    &:focus {
+      border: none;
+      outline: none;
     }
 
     &.rss {
@@ -193,7 +199,7 @@
   margin-top: 6.3rem;
   margin-bottom: 7.2rem;
   text-align: center;
-  font-family: $whacky-family;
+  font-family: $font-secondary;
   font-size: $author-font-size;
 
   @include media-query($on-mobile) {
@@ -454,7 +460,7 @@
   .portfolio-title {
     text-align: center;
     font-size: 2rem;
-    font-family: $whacky-family;
+    font-family: $font-secondary;
     color: $secondary-color;
     text-shadow: 2px 2px 0px $tertiary-color;
     padding: 1.5rem 0px;
@@ -501,6 +507,26 @@
 
     }
   }
+
+  .to-up-link {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    a {
+      color: $tertiary-color;
+      text-decoration: none;
+      font-family: $font-secondary;
+      transition: all 0.1s ease-in-out;
+      
+      &:hover {
+        color: $secondary-color;
+        text-decoration: none;
+        border: none;
+      }
+    }
+  }
+
 }
 
 .portfolio-navbar {
@@ -509,16 +535,26 @@
   justify-content: center;
   align-items: center;
 
+  @include media-query($on-mobile) {
+    grid-template-columns: 1fr 1fr;
+  }
+
   a {
     color: $tertiary-color !important;
     text-decoration: none !important;
-    font-family: $whacky-family;
+    font-family: $font-secondary;
     transition: all 0.1s ease-in-out;
+    text-align: center;
     
     &:hover {
       color: $secondary-color !important;
       text-decoration: none !important;
       border: none !important;
+    }
+
+    &:focus {
+      border: none;
+      outline: none;
     }
   }
 }

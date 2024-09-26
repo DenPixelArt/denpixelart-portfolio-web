@@ -251,33 +251,6 @@ body[data-theme="dark"] {
     }
   }
 
-  .social-media-container {
-    .social-media {
-      .twitch-icon {
-        background-image: $dark-twitch-icon;
-      }
-  
-      .twitter-icon {
-        background-image: $dark-twitter-icon;
-      }
-  
-      .discord-icon {
-        background-image: $dark-discord-icon;
-      }
-  
-      .youtube-icon {
-        background-image: $dark-youtube-icon;
-      }
-  
-      .instagram-icon {
-        background-image: $dark-instagram-icon;
-      }
-      .itch-icon {
-        background-image: $dark-itch-icon;
-      }
-    }
-  }
-
   .contact-form {
     input {
       color: $dark-text-base-color;

@@ -52,7 +52,7 @@ body {
   background-origin: content-box;
   background-size: cover;
   background-color: $black;
-  font: $normal-weight #{$base-font-size}/#{$base-line-height} $primary-font;
+  font: $normal-weight #{$base-font-size}/#{$base-line-height} $font-primary;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -webkit-font-feature-settings: "kern" 1;
@@ -392,7 +392,9 @@ mark,
   margin: 1rem 0px 2rem 0px;
 
   .social-media-title {
-
+    color: $tertiary-color;
+    font-family: $font-tertiary;
+    text-shadow: 2px 1px 0px $secondary-color;
   }
 
   .social-media {
@@ -409,6 +411,12 @@ mark,
       background-repeat: no-repeat;
       background-position: center;
       image-rendering: pixelated;
+      border: none;
+
+      &:focus {
+        border: none;
+        outline: none;
+      }
       
       @include media-query($on-mobile) {
         width: 40px;
@@ -436,6 +444,7 @@ mark,
     .instagram-icon {
       background-image: $instagram-icon;
     }
+
     .itch-icon {
       background-image: $itch-icon;
     }
@@ -490,7 +499,7 @@ mark,
     padding: 5px;
     font-size: 15px;
     background: none;
-    font-family: $primary-font;
+    font-family: $font-primary;
     border-radius: 0px;
 
     &::placeholder {
@@ -515,7 +524,7 @@ mark,
     background: none;
     padding: 5px;
     border: black 2px solid;
-    font-family: $primary-font;
+    font-family: $font-primary;
     border-radius: 0px;
 
     &::placeholder {
@@ -542,7 +551,7 @@ mark,
     cursor: pointer;
     transition: background-color 0.3s;
     margin-top: 10px;
-    font-family: $whacky-family;
+    font-family: $font-secondary;
     font-size: 14px;
 
 
