@@ -7,7 +7,7 @@ timezone: Europe/Madrid # default timezone
 image: /assets/img/denpixelart.png # This image used for Open Graph more info https://ogp.me/
 mode: light # default theme "dark" | "light"
 
-in_maintainment: true # true | false to show maintaince message
+in_maintainment: false # true | false to show maintaince message
 
 # Profile settings
 author:

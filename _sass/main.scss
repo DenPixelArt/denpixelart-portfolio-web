@@ -33,8 +33,8 @@ $border-background-color: $quinary-color;
 
 //Light Colors
 $text-base-color: #434648;
-$text-link-blue: #003fff;
-$text-link-blue-active: #0036c7;
+$text-link-blue: $tertiary-color;
+$text-link-blue-active: $secondary-color;
 
 $black: #0d122b;
 $light: #ececec;
@@ -79,6 +79,7 @@ $discord-icon: url("../../assets/icons/social-media/white/discord-icon-white.png
 $youtube-icon: url("../../assets/icons/social-media/white/youtube-icon-white.png");
 $instagram-icon: url("../../assets/icons/social-media/white/insta-icon-white.png");
 $itch-icon: url("../../assets/icons/social-media/white/itch-icon-white.png");
+$mail-icon: url("../../assets/icons/social-media/white/mail-icon-white.png");
 
 @mixin media-query($device) {
   @media screen and (max-width: $device) {

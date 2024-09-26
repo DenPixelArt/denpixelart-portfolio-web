@@ -33,8 +33,13 @@ layout: compress
   {% else %}
     {% include navbar.html %}
     <div class="wrapper">
-      <heade id="header" class="header">
-        <h1 class="header-title center" itemprop="headline">{{ page.title | escape }}</h1>
+      <header id="header" class="header">
+        {%- if page.imagetitle -%}
+          <div class="header-image-container">
+            <img class="header-image-title" src="{{ page.imagetitle }}" alt="{{ page.title }}">
+          </div>
+        {%- endif -%}
+        <h1 class="header-title center" {%- if page.imagetitle -%}style="display: none;"{%- endif -%} itemprop="headline">{{ page.title | escape }}</h1>
       </header>
       <main class="page-content" aria-label="Content">
         {% include anchor_headings.html html=content anchorClass="anchor-head" beforeHeading=true h_min=4 h_max=4 %}
