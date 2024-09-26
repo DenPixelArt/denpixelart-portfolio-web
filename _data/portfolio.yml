@@ -16,7 +16,7 @@
   id: mock-up
   top_description:
   image: /assets/img/portfolio/title-images/mockup.png
-  bottom_description: These are some examples of how would be a game made by me if I draw every part of the game.
+  bottom_description:
   images:
     - section:
       - image: /assets/img/portfolio/mock-up/blasphemous-cute.png
@@ -29,7 +29,7 @@
 
 - title: Environment
   id: environment
-  top_description: The enviroment is the part of my portfolio where I have learned the most. <br/><br/> I can adapt the style for every kind of resolution and type of ilustration (banner, background, avatar...)
+  top_description:
   image: /assets/img/portfolio/title-images/environment.png
   bottom_description:
   images:
