@@ -502,3 +502,23 @@
     }
   }
 }
+
+.portfolio-navbar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-content: center;
+  align-items: center;
+
+  a {
+    color: $tertiary-color !important;
+    text-decoration: none !important;
+    font-family: $whacky-family;
+    transition: all 0.1s ease-in-out;
+    
+    &:hover {
+      color: $secondary-color !important;
+      text-decoration: none !important;
+      border: none !important;
+    }
+  }
+}

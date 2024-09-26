@@ -6,17 +6,26 @@ excerpt: This is the portfolio page of the Den pixel artist.
 comments: false
 ---
 
+{%- assign portfolio = site.data.portfolio -%}
+<div class="portfolio-navbar">
+	{%- for item in portfolio -%}
+		<a href="#{{ item.id }}">{{ item.title }}</a>
+	{%- endfor -%}
+</div>
+
 <div class="portfolio-container">
-	{%- assign portfolio = site.data.portfolio -%}
 	{%- for item in portfolio -%}
 		<div class="portfolio-section">
 			{%- if item.image -%}
 				<div class="portfolio-title-img">
-					<img src="{{ item.image }}" alt="{{ item.title }}">
+					<img id="{{ item.id }}" src="{{ item.image }}" alt="{{ item.title }}">
 				</div>
 			{%- else -%}
-				<h2 class="portfolio-title">{{ item.title }}</h2>	
+				<h2 id="{{ item.id }}" class="portfolio-title">{{ item.title }}</h2>	
 			{%- endif -%}
+			<div>
+				<a href="#header">Go to up -></a>
+			</div>
 			{%- if item.top_description -%}
 				<div class="top-description">{{ item.top_description }}</div>
 			{%- endif -%}
