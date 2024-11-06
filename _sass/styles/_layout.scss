@@ -751,3 +751,34 @@
     }
   }
 }
+
+.skill-page {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+
+  .header {
+    grid-column: 1 / 3;
+    grid-row: 1;
+  }
+
+  .skills {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .equipment {
+    grid-column: 2;
+    grid-row: 2 / 4;
+  }
+
+  .experience {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .photoden {
+    grid-column: 3;
+    grid-row: 1 / 4;
+  }
+}
