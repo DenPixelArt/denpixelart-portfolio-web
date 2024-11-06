@@ -50,8 +50,8 @@ body {
   background-image: $background-pathern;
   background-position: center;
   background-origin: content-box;
-  background-size: cover;
-  background-color: $black;
+  background-size: initial;
+  background-color: $body-background-color;
   font: $normal-weight #{$base-font-size}/#{$base-line-height} $font-primary;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
