@@ -8,7 +8,7 @@
       - image: /assets/img/portfolio/ux-ui/book-ui.gif
     - section:
       - image: /assets/img/portfolio/ux-ui/monsters-act-menu.png
-      - image: /assets/img/portfolio/ux-ui/rpg-attack-ui.png
+      - image: /assets/img/portfolio/ux-ui/squirtle's-room.gif
     - section:
       - image: /assets/img/portfolio/ux-ui/select-char-panel.gif
 
@@ -26,6 +26,20 @@
       - image: /assets/img/portfolio/mock-up/transformation.gif
     - section:
       - image: /assets/img/portfolio/mock-up/sad-old-man.png
+      - image: /assets/img/portfolio/mock-up/Human engine room.gif
+
+- title: Assets
+  id: assets
+  top_description:
+  image: /assets/img/portfolio/title-images/assets.png
+  bottom_description:
+  images:
+    - section:
+      - image: /assets/img/portfolio/assets/Furniture.png
+      - image: /assets/img/portfolio/assets/Decoration.png
+    - section:
+      - image: /assets/img/portfolio/assets/Caves and Quarry rock with rocks.png
+      - image: /assets/img/portfolio/assets/Workbench.png
 
 - title: Environment
   id: environment
@@ -48,11 +62,11 @@
   bottom_description:
   images:
     - section:
-      - image: /assets/img/portfolio/char-design/green-lord.png
-      - image: /assets/img/portfolio/char-design/megaman-char.png
-      - image: /assets/img/portfolio/char-design/blue-lord.png
+      - image: /assets/img/portfolio/char-design/Orla.png
     - section:
+      - image: /assets/img/portfolio/char-design/green-lord.png
       - image: /assets/img/portfolio/char-design/den-kill-animation.gif
+      - image: /assets/img/portfolio/char-design/blue-lord.png
     - section:
       - image: /assets/img/portfolio/char-design/richard.png
       - image: /assets/img/portfolio/char-design/sara.png
