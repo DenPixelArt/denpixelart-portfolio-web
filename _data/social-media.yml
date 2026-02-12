@@ -1,3 +1,23 @@
+- title: instagram
+  url: https://www.instagram.com/denpixelart/
+  class: instagram-icon
+  external: true
+
+- title: bluesky
+  url: https://bsky.app/profile/denpixelart.bsky.social
+  class: bluesky-icon 
+  external: true
+
+- title: kofi
+  url: https://ko-fi.com/denpixelart
+  class: kofi-icon 
+  external: true
+
+- title: discord
+  url: https://discord.gg/mSexJMzqYn
+  class: discord-icon
+  external: true
+
 - title: twitch
   url: https://www.twitch.tv/denpixelart
   class: twitch-icon
@@ -8,22 +28,8 @@
   class: itch-icon
   external: true
 
-- title: twitter
-  url: https://x.com/den_pixel
-  class: twitter-icon
-  external: true
-
-- title: discord
-  url: https://discord.gg/mSexJMzqYn
-  class: discord-icon
-  external: true
-
 - title: youtube
   url: https://www.youtube.com/@denpixelart?sub_confirmation=1
   class: youtube-icon
   external: true
 
-- title: instagram
-  url: https://www.instagram.com/denpixelart/
-  class: instagram-icon
-  external: true
