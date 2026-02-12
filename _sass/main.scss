@@ -75,13 +75,37 @@ $background-pathern: url("../../assets/img/fondo.gif");
 
 // Social Media Image Routes
 
-$twitch-icon: url("../../assets/icons/social-media/white/twitch-icon-white.png");
-$twitter-icon: url("../../assets/icons/social-media/white/twitter-icon-white.png");
-$discord-icon: url("../../assets/icons/social-media/white/discord-icon-white.png");
-$youtube-icon: url("../../assets/icons/social-media/white/youtube-icon-white.png");
-$instagram-icon: url("../../assets/icons/social-media/white/insta-icon-white.png");
-$itch-icon: url("../../assets/icons/social-media/white/itch-icon-white.png");
-$mail-icon: url("../../assets/icons/social-media/white/mail-icon-white.png");
+$twitch-icon: url("../../assets/icons/rrss-icons/twitch.png");
+$twitch-icon-hover: url("../../assets/icons/rrss-icons/twitch-hover.png");
+$twitch-icon-active: url("../../assets/icons/rrss-icons/twitch-active.png");
+
+$discord-icon: url("../../assets/icons/rrss-icons/discord.png");
+$discord-icon-hover: url("../../assets/icons/rrss-icons/discord-hover.png"); 
+$discord-icon-active: url("../../assets/icons/rrss-icons/discord-active.png"); 
+
+$youtube-icon: url("../../assets/icons/rrss-icons/youtube.png"); 
+$youtube-icon-hover: url("../../assets/icons/rrss-icons/youtube-hover.png"); 
+$youtube-icon-active: url("../../assets/icons/rrss-icons/youtube-active.png"); 
+
+$instagram-icon: url("../../assets/icons/rrss-icons/insta.png"); 
+$instagram-icon-hover: url("../../assets/icons/rrss-icons/insta-hover.png"); 
+$instagram-icon-active: url("../../assets/icons/rrss-icons/insta-active.png"); 
+
+$itch-icon: url("../../assets/icons/rrss-icons/itch.png"); 
+$itch-icon-hover: url("../../assets/icons/rrss-icons/itch-hover.png"); 
+$itch-icon-active: url("../../assets/icons/rrss-icons/itch-active.png"); 
+
+$mail-icon: url("../../assets/icons/rrss-icons/mail.png"); 
+$mail-icon-hover: url("../../assets/icons/rrss-icons/mail-hover.png"); 
+$mail-icon-active: url("../../assets/icons/rrss-icons/mail-active.png");
+
+$bluesky-icon: url("../../assets/icons/rrss-icons/bluesky.png"); 
+$bluesky-icon-hover: url("../../assets/icons/rrss-icons/bluesky-hover.png"); 
+$bluesky-icon-active: url("../../assets/icons/rrss-icons/bluesky-active.png");
+
+$kofi-icon: url("../../assets/icons/rrss-icons/kofi.png"); 
+$kofi-icon-hover: url("../../assets/icons/rrss-icons/kofi-hover.png"); 
+$kofi-icon-active: url("../../assets/icons/rrss-icons/kofi-active.png");
 
 @mixin media-query($device) {
   @media screen and (max-width: $device) {

@@ -409,6 +409,12 @@ mark,
     justify-content: center;
     gap: 10px;
 
+    @include media-query($on-mobile) { 
+      display: grid; 
+      grid-template-columns: repeat(3, 1fr); 
+      gap: 15px;
+    }
+
     .social-icon {
       width: 60px;
       height: 60px;
@@ -417,6 +423,12 @@ mark,
       background-position: center;
       image-rendering: pixelated;
       border: none;
+      transition: all 0.3s ease-in-out; 
+      cursor: pointer;
+
+      &:hover { 
+        transform: scale(1.1);
+      }
 
       &:focus {
         border: none;
@@ -424,40 +436,66 @@ mark,
       }
 
       @include media-query($on-mobile) {
-        width: 40px;
-        height: 40px;
+        margin: auto;
       }
 
     }
 
     .twitch-icon {
+      &:hover { background-image: $twitch-icon-hover; }
+      &:active { background-image: $twitch-icon-active; }
+      &:focus { border: none; outline: none; }
       background-image: $twitch-icon;
     }
 
-    .twitter-icon {
-      background-image: $twitter-icon;
-    }
-
     .discord-icon {
+      &:hover { background-image: $discord-icon-hover; } 
+      &:active { background-image: $discord-icon-active; } 
+      &:focus { border: none; outline: none; }
       background-image: $discord-icon;
     }
 
     .youtube-icon {
+      &:hover { background-image: $youtube-icon-hover; }
+      &:active { background-image: $youtube-icon-active; }
+      &:focus { border: none; outline: none; }
       background-image: $youtube-icon;
     }
 
     .instagram-icon {
+      &:hover { background-image: $instagram-icon-hover; }
+      &:active { background-image: $instagram-icon-active; }
+      &:focus { border: none; outline: none; }
       background-image: $instagram-icon;
     }
 
     .itch-icon {
+      &:hover { background-image: $itch-icon-hover; }
+      &:active { background-image: $itch-icon-active; }
+      &:focus { border: none; outline: none; }
       background-image: $itch-icon;
     }
 
     .mail-icon {
+      &:hover { background-image: $mail-icon-hover; }
+      &:active { background-image: $mail-icon-active; }
+      &:focus { border: none; outline: none; }
       background-image: $mail-icon;
     }
 
+    .bluesky-icon { 
+      &:hover { background-image: $bluesky-icon-hover; }
+      &:active { background-image: $bluesky-icon-active; }
+      &:focus { border: none; outline: none; } 
+      background-image: $bluesky-icon; 
+    } 
+    
+    .kofi-icon { 
+      &:hover { background-image: $kofi-icon-hover; } 
+      &:active { background-image: $kofi-icon-active; } 
+      &:focus { border: none; outline: none; } 
+      background-image: $kofi-icon; 
+    }
   }
 }
 
